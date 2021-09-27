@@ -1,0 +1,32 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+
+// Default CSS
+@import "base/index";
+@import "base/variable";
+@import "base/mixin";
+@import "base/utilities";
+
+// Layout CSS
+@import "layouts/header";
+@import "layouts/vertical-menu";
+@import "layouts/footer";
+@import "layouts/auth";
+
+// Page CSS
+@import "page/home";
+@import "page/product";
+@import "page/userProfile";
+@import "page/checkOut";
+@import "page/admin";
+@import "page/productDetails";
+
+// Component CSS
+@import "components/button";
+@import "components/card";
+@import "components/sidebar";
+@import "components/tab";
+@import "components/carttable";
+@import "components/table";
+@import "components/modal";

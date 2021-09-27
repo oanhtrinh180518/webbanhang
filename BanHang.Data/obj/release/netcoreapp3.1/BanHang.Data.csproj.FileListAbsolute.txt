@@ -1,0 +1,12 @@
+F:\ThucTap\svtt\BanHang\BanHang.Data\bin\release\netcoreapp3.1\BanHang.Data.deps.json
+F:\ThucTap\svtt\BanHang\BanHang.Data\bin\release\netcoreapp3.1\BanHang.Data.runtimeconfig.json
+F:\ThucTap\svtt\BanHang\BanHang.Data\bin\release\netcoreapp3.1\BanHang.Data.runtimeconfig.dev.json
+F:\ThucTap\svtt\BanHang\BanHang.Data\bin\release\netcoreapp3.1\BanHang.Data.dll
+F:\ThucTap\svtt\BanHang\BanHang.Data\bin\release\netcoreapp3.1\BanHang.Data.pdb
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.csprojAssemblyReference.cache
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.AssemblyInfoInputs.cache
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.AssemblyInfo.cs
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.csproj.CoreCompileInputs.cache
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.dll
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.pdb
+F:\ThucTap\svtt\BanHang\BanHang.Data\obj\release\netcoreapp3.1\BanHang.Data.genruntimeconfig.cache

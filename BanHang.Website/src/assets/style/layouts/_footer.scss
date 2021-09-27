@@ -1,0 +1,88 @@
+.footer__top {
+  border-bottom: 1px solid $color-white-3;
+
+  & .footer__about {
+
+    & .footer__logo {
+      width: 155px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      text-align: left;
+
+      & .footer__logo-link {
+
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    & .footer__address {
+      align-items: center;
+
+      & .footer__address-item {
+        margin-bottom: 10px;
+
+        svg {
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+    }
+
+    & .footer__social {
+      display: flex;
+
+      & .footer__social-item {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  & .footer__menu {
+
+    & .footer__menu-title {
+      font-size: 16px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    & .footer__nav {
+
+      & .footer__nav-item {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+        & .footer__nav-link {
+
+          &:hover {
+            color: $color-primary;
+            transition: .3s all ease-in-out;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer__bottom {
+
+  & .footer__right-text {
+    font-size: 14px;
+
+    & .author {
+      color: $color-primary;
+    }
+  }
+
+  & .footer__payment {
+
+    img {
+      width: 100%;
+      display: block;
+      overflow: hidden;
+    }
+  }
+}

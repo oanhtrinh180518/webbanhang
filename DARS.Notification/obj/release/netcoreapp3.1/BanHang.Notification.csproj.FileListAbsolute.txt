@@ -1,0 +1,9 @@
+F:\ThucTap\svtt\BanHang\DARS.Notification\bin\release\netcoreapp3.1\BanHang.Notification.deps.json
+F:\ThucTap\svtt\BanHang\DARS.Notification\bin\release\netcoreapp3.1\BanHang.Notification.dll
+F:\ThucTap\svtt\BanHang\DARS.Notification\bin\release\netcoreapp3.1\BanHang.Notification.pdb
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.csprojAssemblyReference.cache
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.AssemblyInfoInputs.cache
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.AssemblyInfo.cs
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.csproj.CoreCompileInputs.cache
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.dll
+F:\ThucTap\svtt\BanHang\DARS.Notification\obj\release\netcoreapp3.1\BanHang.Notification.pdb

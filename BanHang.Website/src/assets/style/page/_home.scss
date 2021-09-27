@@ -1,0 +1,249 @@
+.home-body {
+  margin-top: 50px;
+}
+
+// banner style
+.banner__box {
+  width: 100%;
+  overflow: hidden;
+
+  & .banner__box-single {
+    width: 100%;
+
+    & .banner__link {
+      display: block;
+
+      & .banner__img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  & .banner__content {
+    padding-left: 60px;
+
+    h4 {
+      color: $color-primary;
+      letter-spacing: 4px;
+    }
+  }
+
+  & .banner__content--center {
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  & .banner__btn {
+    top: 75%;
+    left: 20%;
+  }
+}
+
+// Top Categories section CSS
+.topCategories {
+  & .topCategories__header {
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color-white-3;
+  }
+
+  & .topCategories__box {
+    overflow: hidden;
+    border-left: 1px solid $color-white-3;
+    border-top: 1px solid $color-white-3;
+  }
+}
+
+// Best Seller section CSS
+.bestSeller {
+  & .bestSeller__header {
+    align-items: center;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color-white-3;
+  }
+}
+
+// Discount banner section CSS
+.discountBanner {
+  & .discountBanner__bg {
+    img {
+      height: 280px;
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  & .discountBanner__box {
+    max-width: 100%;
+    //overflow: hidden;
+
+    & .banner__content {
+      padding: 0 60px;
+      bottom: 50%;
+      transform: translateY(-50%);
+
+      & .banner__subtitle {
+        span {
+          color: $color-primary;
+          font-size: 50px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+// Subscribe section CSS
+.subscribe {
+  img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 240px;
+  }
+
+  & .subscribe__content {
+    & .subscribe__title {
+      margin-bottom: 60px;
+      font-size: 40px;
+      line-height: 48px;
+
+      h2 {
+        display: inline-block;
+        text-transform: capitalize;
+        position: relative;
+        font-family: "Lora", serif;
+        font-weight: 400;
+        font-size: 50px;
+        margin-bottom: 30px;
+
+        &::after {
+          position: absolute;
+          content: "";
+          width: 80px;
+          height: 2px;
+          background: #222;
+          bottom: -35px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    & .subscribe__form-content {
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      color: #666;
+      font-size: 26px;
+
+      input {
+        width: 100%;
+        background: 0 0;
+        border-bottom: 1px solid;
+        padding: 15px 83px 15px 30px;
+        font-size: 16px;
+      }
+
+      button {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        background: 0 0;
+        font-size: 14px;
+        font-weight: 500;
+        color: #666;
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}
+
+// Supplier section CSS
+.supplier {
+  & .container {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color-white-3;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+// Responsive
+@media screen and(max-width: 576px) {
+  .home-body {
+    & .banner__box {
+      margin-bottom: 20px;
+
+      & .banner__btn {
+        width: 100px;
+        left: calc(50% - 60px);
+        top: 70%;
+        & .custom-button {
+          padding: 5px;
+        }
+      }
+    }
+    & .banner__content {
+      padding-left: 10px;
+
+      & .banner__title {
+        font-size: 20px;
+      }
+    }
+
+    & .discountBanner {
+      & .discountBanner__box {
+        & .banner__content {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 768px) {
+  .home-body {
+    & .banner__box {
+      margin-bottom: 20px;
+
+      & .banner__btn {
+        width: 100px;
+        left: calc(50% - 60px);
+        top: 70%;
+        & .custom-button {
+          padding: 5px;
+        }
+      }
+    }
+    & .banner__content {
+      padding-left: 10px;
+
+      & .banner__title {
+        font-size: 20px;
+      }
+    }
+
+    & .bestSeller {
+      margin-top: 50px;
+    }
+  }
+}
+@media screen and(max-width: 960px) {
+}

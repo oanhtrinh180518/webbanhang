@@ -1,0 +1,9 @@
+F:\ThucTap\svtt\BanHang\DARS.Security\bin\release\netcoreapp3.1\BanHang.Security.deps.json
+F:\ThucTap\svtt\BanHang\DARS.Security\bin\release\netcoreapp3.1\BanHang.Security.dll
+F:\ThucTap\svtt\BanHang\DARS.Security\bin\release\netcoreapp3.1\BanHang.Security.pdb
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.csprojAssemblyReference.cache
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.AssemblyInfoInputs.cache
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.AssemblyInfo.cs
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.csproj.CoreCompileInputs.cache
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.dll
+F:\ThucTap\svtt\BanHang\DARS.Security\obj\release\netcoreapp3.1\BanHang.Security.pdb

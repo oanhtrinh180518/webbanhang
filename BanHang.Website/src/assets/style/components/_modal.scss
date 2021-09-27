@@ -1,0 +1,68 @@
+// UpdateOrderModal css
+.order__detail {
+  &-left {
+    & li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  &-right {
+    &-top {
+      display: flex;
+      justify-content: space-between;
+
+      & h6 {
+        font-weight: 700;
+      }
+    }
+
+    &-middle {
+      margin: 10px 0;
+      padding: 10px 0;
+      border-top: 1px solid $color-white-3;
+      border-bottom: 1px solid $color-white-3;
+
+      & li {
+        & span {
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    &-bottom {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid black;
+
+      & span {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    &-totalPrice {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+// Reset password modal CSS
+.modal-content--custom {
+  & .back-to-login-btn {
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-color: rgba(137, 199, 74, 1);
+    color: $color-white-2;
+
+    &:hover {
+      background-color: rgba(163, 239, 86, 1);
+      color: $color-white;
+    }
+  }
+}
+//Add product modal CSS
+// .btn--addproduct:hover {
+// }

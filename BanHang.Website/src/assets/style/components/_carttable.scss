@@ -1,0 +1,43 @@
+.cart {
+  & .table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cart {
+    &__actions {
+      display: flex;
+      flex-direction: column;
+
+      & .btn-left {
+        margin-bottom: 20px;
+      }
+    }
+    &__btn {
+      display: flex;
+      flex-direction: column;
+
+      & button {
+        margin-bottom: 20px;
+      }
+    }
+    & td {
+      & input {
+        display: inline-block;
+        width: 50px !important;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .cart__btn {
+    flex-direction: column;
+    & .btn-update {
+      margin-bottom: 10px;
+    }
+  }
+}

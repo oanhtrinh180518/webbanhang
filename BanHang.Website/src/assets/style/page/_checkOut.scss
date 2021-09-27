@@ -1,0 +1,32 @@
+.checkOut {
+  border-bottom: 1px solid $color-white-3;
+  padding-bottom: 50px;
+}
+
+.checkOut--success {
+  border-bottom: 1px solid $color-white-3;
+  padding-bottom: 50px;
+
+  &__header {
+  }
+
+  &__content {
+    & h4 {
+      font-size: 24px;
+      font-weight: 600;
+      color: $color-primary;
+    }
+    & p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .checkOut {
+    &__right-header {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

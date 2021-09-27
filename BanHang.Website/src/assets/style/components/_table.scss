@@ -1,0 +1,21 @@
+// Users table CSS
+.users__table {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.tb__actions {
+  //display: flex;
+  //justify-content: space-between;
+  & a {
+    //font-size: 20px;
+  }
+  &-view {
+    float: right;
+  }
+
+  &-edit {
+    float: left;
+  }
+}

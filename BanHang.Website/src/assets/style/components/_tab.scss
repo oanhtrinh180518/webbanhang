@@ -1,0 +1,38 @@
+/*tabs*/
+.tabs {
+  padding: 10px;
+}
+.tabs-header {
+  display: flex;
+  border-bottom: 2px solid rgba(153, 155, 176, 0.3);
+}
+.tabs-header .active {
+  color: $color-primary;
+  border-bottom: 2px solid $color-primary;
+}
+.tabs-header-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  width: 180px;
+  text-align: center;
+  color: #999bb0;
+  padding-bottom: 5px;
+  margin-bottom: -2px;
+}
+.tabs-header-item:hover {
+  cursor: pointer;
+  color: $color-primary ;
+  border-bottom: 2px solid $color-primary;
+}
+.tabs-content {
+  margin-top: 15px;
+  padding: 15px 0;
+}
+.tabs-content .active {
+  display: block !important;
+}
+.tabs-content-item {
+  display: none;
+}
+/*end tabs*/

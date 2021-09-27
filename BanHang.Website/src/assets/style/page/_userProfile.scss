@@ -1,0 +1,87 @@
+.user__profile {
+  border-bottom: 1px solid $color-white-3;
+  &-nav {
+    & .nav-item {
+      &:focus {
+        color: #fff;
+      }
+      &:visited {
+        color: #fff;
+      }
+      &:active {
+        color: #fff;
+      }
+      &:target {
+        color: #fff;
+      }
+      &:focus-visible {
+        color: #fff;
+      }
+    }
+  }
+  & .nav-pills .nav-link {
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  & .nav-link {
+    &:hover {
+      // color: $color-primary !important;
+    }
+  }
+
+  & .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+  & .tab__content {
+    &-form {
+      border: 1px solid $color-white-3;
+      padding: 15px;
+
+      label {
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    &-btn {
+      color: black;
+      transition: 0.3s linear;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.cancel-order-btn {
+  &:hover {
+    color: $color-red;
+    cursor: pointer;
+  }
+
+  &--ban {
+    color: $color-gray-2;
+
+    &:hover {
+      cursor: no-drop;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .order__tables {
+    display: block;
+    overflow: auto;
+  }
+  .tabs-header {
+    overflow: auto;
+    &-item {
+      padding-right: 10px;
+    }
+  }
+}

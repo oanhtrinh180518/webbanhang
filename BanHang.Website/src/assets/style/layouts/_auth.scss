@@ -1,0 +1,145 @@
+// auth CSS
+.auth {
+  display: flex;
+  height: 100%;
+}
+
+// Member login css
+.login {
+  padding: 0 100px;
+
+  & .btn-primary {
+    color: #fff;
+    background-color: $color-primary !important;
+    border-color: $color-primary !important;
+  }
+
+  & .reset {
+    color: black;
+  }
+}
+.login__form-right {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../../img/auth/login_02.svg");
+}
+
+// Register form css
+.register {
+  padding: 0 100px;
+
+  & .btn-primary {
+    color: #fff;
+    background-color: $color-primary !important;
+    border-color: $color-primary !important;
+  }
+
+  & .reset {
+    color: black;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+.register__form-right {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../../img/auth/Register.svg");
+}
+.text-valid {
+  font-size: 14px;
+  font-style: italic;
+}
+// Reset password css
+.reset-password__form-right {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../../img/auth/forgot-password-bg.jpg");
+}
+
+// 401 Page Css
+.page401 {
+  &__left {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../img/gif/401-Error-Unauthorized_800.gif");
+  }
+  &__right {
+    &-title {
+      font-size: 64px;
+    }
+    &-label {
+      color: $color-white;
+      background-color: $color-primary;
+      padding: 5px 10px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    &-subtitle {
+      font-size: 32px;
+      font-weight: 700;
+      color: $color-primary;
+    }
+    &-content {
+      color: $color-primary;
+    }
+    &-link {
+      font-weight: 600;
+      color: $color-black-1;
+      border-radius: 10px;
+      padding: 5px 5px;
+      width: 150px;
+      display: inline-block;
+      background-image: linear-gradient(
+        to right,
+        $color-primary,
+        rgba(132, 191, 57, 0.7)
+      );
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .login {
+    padding: 0;
+
+    & h3 {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+  .mobile--hidden {
+    display: none;
+  }
+}
+@media screen and(max-width: 768px) {
+  .login,
+  .register {
+    padding: 0;
+    & h3 {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  }
+}
+@media screen and(max-width: 960px) {
+  .login,
+  .register {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 960px) and(max-width: 1200px) {
+  .login,
+  .register {
+    padding: 0 0 0 40px;
+  }
+}

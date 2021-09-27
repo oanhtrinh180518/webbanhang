@@ -1,0 +1,16 @@
+7/8
+BE
+- ProductVM
+-ProductService
+FE
+CSS:
++button.scss:
++_product.scss:69
+
+
++AddToProductModal
++ProductSearchAdmin
+ProductsManage:thay all
+productSlice
+productApi
+

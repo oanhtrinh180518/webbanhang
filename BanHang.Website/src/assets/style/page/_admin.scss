@@ -1,0 +1,50 @@
+.admin__dashboard {
+  margin-top: 80px;
+
+  &-content {
+    margin-top: 20px;
+
+    &--order-overview {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+
+      & .order-overview__card {
+        background-color: #fbff59 ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid $color-white-3;
+        padding: 10px 15px;
+        border-radius: 10px;
+
+        &-content {
+          & h6 {
+            font-size: 14px;
+            font-weight: 600;
+          }
+
+          & span {
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+// admin - user management css
+.admin__users {
+
+  &-header {
+    //border-bottom: 1px solid $color-white-3;
+
+    &-img {
+      display: inline-block;
+      width: 64px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
